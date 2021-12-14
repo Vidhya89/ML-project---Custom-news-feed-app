@@ -1,0 +1,16 @@
+PROJECT TITLE:	CUSTOM NEWSFEED APP
+	
+1.Make a supervised training dataset with pocket app
+2.Use pocket API to obtain stories
+3.Use embedly API to extract story bodies
+
+	Pocket app/extension allows to save personalised stories to read later. The stories can be linked to tags. Use tag 'y' for interesting topics and 'n' for non-interesting topics.This app helps to create a supervised training set for the model.
+
+	Import the required Libraries
+	Setup Authorisations
+	Retrieve the Saved Online Articles
+		-Begin with 'n' tags: Disliked Web articles
+		-Create a list of URLs
+		-Extract the 'y' tags: Liked Web articles
+		-Join both the 'n' and 'y' tagged article dataframe
+		
